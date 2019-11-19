@@ -23,7 +23,8 @@ for linea in archivo2:
 
 pp.errorbar(eje_x1, eje_y1, yerr = error1, linestyle = '', marker = 'o', color = 'purple')
 pp.errorbar(eje_x2, eje_y2, yerr = error2, linestyle = '', marker = 'o', color = 'blue')
-pp.title("Hash0: Lambda VS Time")
+pp.legend(('Hash0', 'Hash64'), prop={'size':10}, loc='upper right')
+pp.title("Hash0 vs Hash64")
 pp.xlabel("Lambda")
 pp.ylabel("Time")
 

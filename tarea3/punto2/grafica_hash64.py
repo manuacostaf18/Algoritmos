@@ -12,7 +12,7 @@ for linea in archivo2:
 	error2.append(float(linea[2]))
 
 pp.errorbar(eje_x2, eje_y2, yerr = error2, linestyle = '', marker = 'o', color = 'blue')
-pp.title("Hash0: Lambda VS Time")
+pp.title("Hash64: Lambda VS Time")
 pp.xlabel("Lambda")
 pp.ylabel("Time")
 
