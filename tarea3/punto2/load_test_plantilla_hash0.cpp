@@ -1,3 +1,5 @@
+//Manuela Acosta, María Paula Gaviria y Sebastian Martínez
+
 #include <fstream>
 #include <random>
 #include <vector>
