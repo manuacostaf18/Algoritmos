@@ -7,7 +7,7 @@
 #include <sys/time.h>
 #include "tablas_hash0.hpp"
 
-const int REPETITIONS = 100000; 
+const int REPETITIONS = 1000; 
 
 double gettime() {
   struct timeval tp;
